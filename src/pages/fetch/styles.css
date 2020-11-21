@@ -1,0 +1,15 @@
+.breadcrumb {
+  margin-top: 3%;
+  border-radius: 0;
+  background: #c4c4c4;
+}
+
+.active{
+  color: black !important;
+}
+
+.text__header {
+  padding-bottom: 9px;
+  margin: 20px 0 20px;
+  border-bottom: 1px solid #eee;
+}
