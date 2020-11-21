@@ -1,6 +1,8 @@
 
 .navbar__gray {
     background: #C4C4C4 !important;
+    text-shadow: 5px 5px 5px rbga(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 .bg__gray{

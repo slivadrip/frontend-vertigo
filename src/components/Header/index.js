@@ -10,7 +10,7 @@ import './styles.css';
 export default function Header() {
 
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg__gray">
+    <Navbar collapseOnSelect expand="lg" className="bg__gray navbar__gray">
     <div className="container">
     <Navbar.Brand href="#home">
     <Image src="https://www.rnp.br/sites/site-publico/themes/bootstrap_barrio/sitepublico/logo.png" fluid />

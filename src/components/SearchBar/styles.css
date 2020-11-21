@@ -29,3 +29,22 @@
     border-radius: 0px;
     background-color: #C4C4C4;
 }
+
+
+
+
+
+ @media (max-width: 575.98px) { 
+    .search__titles {
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    .search__input {
+        /* width: 80% !important;
+        max-width: 80%; */
+    }
+    .btn__search {
+        width: 98.8% !important;
+        margin-top: 2%;
+    }
+ }
