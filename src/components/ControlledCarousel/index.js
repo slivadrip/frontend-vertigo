@@ -6,17 +6,18 @@ import './styles.css';
 import backgroundImage from '../../assets/background.png';
 
 
-export default function ControlledCarousel () {
+export default function ControlledCarousel() {
 
-    const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0);
 
-    const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
-      };
+  const handleSelect = (selectedIndex, e) => {
+    console.log(selectedIndex);    
+    setIndex(selectedIndex);
+  };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
+    <Carousel activeIndex={index} onSelect={handleSelect} pause={'hover'}>
+      <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
           src={backgroundImage}
@@ -24,11 +25,11 @@ export default function ControlledCarousel () {
         />
         <Carousel.Caption>
           <h3>Aqui temos uma descrição legível.
-Que informa sobre a imagem ao fundo.
-Uma descrição impactante.</h3>          
+          Que informa sobre a imagem ao fundo.
+          Uma descrição impactante.</h3>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
           src={backgroundImage}
@@ -36,12 +37,12 @@ Uma descrição impactante.</h3>
         />
 
         <Carousel.Caption>
-        <h3>Aqui temos uma descrição legível.
-Que informa sobre a imagem ao fundo.
-Uma descrição impactante.</h3>     
+          <h3>Aqui temos uma descrição legível.
+          Que informa sobre a imagem ao fundo.
+          Uma descrição impactante.</h3>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
           src={backgroundImage}
@@ -49,9 +50,9 @@ Uma descrição impactante.</h3>
         />
 
         <Carousel.Caption>
-        <h3>Aqui temos uma descrição legível.
-Que informa sobre a imagem ao fundo.
-Uma descrição impactante.</h3>     
+          <h3>Aqui temos uma descrição legível.
+          Que informa sobre a imagem ao fundo.
+          Uma descrição impactante.</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

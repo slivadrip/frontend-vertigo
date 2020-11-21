@@ -19,7 +19,7 @@ export default function Header() {
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto"/>    
       <Nav className="alignRight">
-        <Nav.Link >Item Menu</Nav.Link>
+        <Nav.Link  href='/fetch'>Item Menu</Nav.Link>
         <Nav.Link >Item Menu</Nav.Link>
         <Nav.Link >Item Menu</Nav.Link>
 

@@ -1,40 +1,25 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
-    color: #5a5a5a !important;
-  }
-  
-  
-  /* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
-  
-  /* Carousel base class */
   .carousel {
     margin-bottom: 4rem !important;
   }
-  /* Since positioning the image, we need to help out the caption */
+
   .carousel-caption {
     bottom: 3rem !important;
     z-index: 10 !important;
   }
-  
-  /* Declare heights because of positioning of img element */
+
   .carousel-item {
     height: 32rem !important;
   }
-  .carousel-item > img {
+
+  .carousel-item>img {
     position: absolute !important;
     top: 0 !important;
     left: 0 !important;
     min-width: 100% !important;
     height: 32rem !important;
   }
-  
-  .carousel-caption{
+
+  .carousel-caption {
     bottom: 15% !important;
     z-index: 10 !important;
     background: rgba(0, 0, 0, 0.7);
@@ -42,19 +27,12 @@ body {
     max-width: 35%;
   }
 
-  /* RESPONSIVE CSS
-  -------------------------------------------------- */
-  
-  @media (max-width: 575.98px) { 
-    
-  .carousel-caption {
+  @media (max-width: 575.98px) {
+    .carousel-caption {
       bottom: 15% !important;
       z-index: 10 !important;
       background: rgba(0, 0, 0, 0.7);
       padding: 4%;
       max-width: 100%;
+    }
   }
-  
-   
-  }
-  
